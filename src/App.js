@@ -46,11 +46,11 @@ function App() {
             <label class='form-check-label'>Male</label>
           </div>
         </div>
+        <button type='button' class='btn btn-primary' onClick={calculate}>Calculate</button>
         <div class='form-group'>
           <label>Blood alcohol content:</label>
           <output class='form-control'>{result.toFixed(1)} ‰</output>
         </div>
-        <button type='button' class='btn btn-primary' onClick={calculate}>Calculate</button>
       </form>
     </div>
   );

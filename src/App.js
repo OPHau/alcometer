@@ -47,8 +47,8 @@ function App() {
           </div>
         </div>
         <div class='form-group'>
-          <label>Alcohol level:</label>
-          <output class='form-control'>{result.toFixed(1)}</output>
+          <label>Blood alcohol content:</label>
+          <output class='form-control'>{result.toFixed(1)} ‰</output>
         </div>
         <button type='button' class='btn btn-primary' onClick={calculate}>Calculate</button>
       </form>
